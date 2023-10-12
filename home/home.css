@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color-cream);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    z-index: 2;
+    padding: 10px 35px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-logo{
+    max-width: 102px;
+}
+
+.hamburger{
+    position: fixed;
+    z-index: 5;
+    top: 14px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 9px 6px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 7px;
+    border: 3px solid var(--color-dark-skin);
+    box-shadow: 4px 4px 0 0 var(--color-dark-skin);
+    transition: all .1s linear;
+    cursor: pointer;
+}
+
+.hamburger > span{
+    width: 100%;
+    height: 3px;
+    border-radius: 7px;
+    background-color: var(--color-dark-skin);
+}
+
+.hamburger:hover{
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 0 var(--color-dark-skin);
+}
+
+.home-main{
+    height: 100vh;
+}
+
+.slider-container{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.slider-image{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vadilal-index-logo{
+    position: absolute;
+    left: -40px;
+}

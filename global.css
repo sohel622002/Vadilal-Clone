@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Paytone+One&family=Roboto&family=Work+Sans:wght@500;800&display=swap');
+
+
+:root{
+    --bg-color-cream : rgb(255, 245, 176);
+    --color-dark-skin: rgb(107, 61, 43);
+
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary : 'Work Sans', sans-serif;
+    --font-payton: 'Paytone One', sans-serif;
+    --font-dansing: 'Dancing Script', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+.btn-with-shadow{
+    padding: 15px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+.btn-with-shadow::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all .1s ease;
+}
