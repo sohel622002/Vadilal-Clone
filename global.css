@@ -9,6 +9,8 @@
     --font-secondary : 'Work Sans', sans-serif;
     --font-payton: 'Paytone One', sans-serif;
     --font-dansing: 'Dancing Script', cursive;
+
+    --clr-pink-red: rgb(240,5,64);
 }
 
 *{
